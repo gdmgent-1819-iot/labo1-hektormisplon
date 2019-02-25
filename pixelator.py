@@ -14,7 +14,7 @@ def ease_in_out(amount):
 def loop_matrix():
   for i in range(8):
       for j in range(8):
-          s.set_pixel(i,j, (randint(255), randint(255), randint(255)))
+          s.set_pixel(i,j, (randint(0,255), randint(0,255), randint(0,255)))
           time.sleep(ease_in_out(.5))
   s.clear()
   loop_matrix()

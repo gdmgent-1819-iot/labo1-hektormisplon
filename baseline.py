@@ -18,7 +18,7 @@ def get_rand_color(z = 1):
     else:
       return (r/10, g/10, b/10)
 
-# display the message
+# display the message - loop
 def loop_message():
     s.show_message(message, text_colour=get_rand_color(1), back_colour=get_rand_color(0))
     loop_message()
